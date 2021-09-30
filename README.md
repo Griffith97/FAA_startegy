@@ -18,5 +18,6 @@ FAA(level, period, w1, w2, w3, number, transaction_cost)
 
 결과
 ----
-* FAA 전략과 동일 가중(Equal weight) 전략에 대한 결과치를 한 눈에 볼 수 있는 그래프
+
+* FAA 전략과 동일 가중(Equal weight) 전략에 대한 결과치를 한 눈에 볼 수 있는 그래프   
 * FAA 전략과 동일 가중(Equal weight) 전략에 대한 세부 백테스트 결과(pyfolio package 사용)
