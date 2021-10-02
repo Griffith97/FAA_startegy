@@ -10,7 +10,7 @@ class FAA():
     self.etf = self.data(level)[0]
     self.etfs = self.data(level)[1]
     self.cash = self.data(level)[2]
-    self.momentum = self.ranking(self.factor(self.etf,self.etfs,period)[0],False)
+    self.momentum = self.ranking(self.factor(self.etf,self.etfs,period)[0],True)
     self.vol = self.ranking(self.factor(self.etf,self.etfs,period)[1],True)
     self.corr = self.ranking(self.factor(self.etf,self.etfs,period)[2],True)
     self.weight_factor = self.weight(self.etf,self.momentum,self.vol,self.corr,w1,w2,w3)
