@@ -8,8 +8,13 @@ FAA(level, period, w1, w2, w3, number, transaction_cost)
    >Safe assets : FXY, FXF, GLD, IEF, SH, TLT, SHY, SHV     
    >Cash : SHV
 
-* period : 자산군의 모멘텀, 변동성, 상관성 계산 주기(월 단위)
-* w1 : 모멘텀 비중
+* period : 자산군의 모멘텀 또는 Permutation pattern, 변동성, 상관성 계산 주기(월 단위)
+   > #### 모멘텀 종류   
+   >   
+   > - 상대 모멘텀   
+   > - Permutation pattern   
+   > - Kaufman efficiency ratio   
+* w1 : 모멘텀 비중 또는 Permutation pattern 비중
 * w2 : 변동성 비중
 * w3 : 상관성 비중
 * number : 자산군에 포함되는 종목 수
