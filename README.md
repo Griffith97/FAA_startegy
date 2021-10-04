@@ -11,7 +11,7 @@ FAA(level, period, w1, w2, w3, number, transaction_cost)
 * period : 자산군의 모멘텀, 변동성, 상관성 계산 주기(월 단위)
    > #### 모멘텀 종류   
    >   
-   > - Relative momentum(original FAA strategy's momentum)
+   > - Relative momentum  (original FAA strategy's momentum)
    > - Exponential moving average   
    > - Permutation pattern   
    > - Kaufman efficiency ratio   
