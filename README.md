@@ -14,7 +14,7 @@ FAA(level, period, w1, w2, w3, number, transaction_cost)
    > - 상대 모멘텀   
    > - Permutation pattern   
    > - Kaufman efficiency ratio   
-* w1 : 모멘텀 비중 또는 Permutation pattern 비중
+* w1 : 모멘텀 비중
 * w2 : 변동성 비중
 * w3 : 상관성 비중
 * number : 자산군에 포함되는 종목 수
