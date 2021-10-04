@@ -4,9 +4,10 @@ FAA_startegy
 ------
 FAA(level, period, w1, w2, w3, number, transaction_cost)  
 * level : 자산군(risky, safe)의 위험도 선택
-   >Risky assets : XLY, XLV, XLU, XLP, XLK, XLI, XLF, XLE, XLB, VOX, RWR     
-   >Safe assets : FXY, FXF, GLD, IEF, SH, TLT, SHY, SHV     
-   >Cash : SHV
+   > #### 자산군 종류
+   > - Risky assets : XLY, XLV, XLU, XLP, XLK, XLI, XLF, XLE, XLB, VOX, RWR     
+   > - Safe assets : FXY, FXF, GLD, IEF, SH, TLT, SHY, SHV     
+   > - Cash : SHV
 
 * period : 자산군의 모멘텀, 변동성, 상관성 계산 주기(월 단위)
    > #### 모멘텀 종류   
