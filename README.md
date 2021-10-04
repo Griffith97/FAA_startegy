@@ -9,8 +9,8 @@ FAA(level, period, w1, w2, w3, number, transaction_cost)
    >Cash : SHV
 
 * period : 자산군의 모멘텀 또는 Permutation pattern, 변동성, 상관성 계산 주기(월 단위)
-   > - 모멘텀 종류   
-   >
+   > ## 모멘텀 종류   
+   >   
    > 1 상대 모멘텀   
    > 2 Permutation pattern   
    > 3 Kaufman efficiency ratio   
